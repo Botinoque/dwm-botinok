@@ -1,0 +1,17 @@
+Please note, that the repository exists for personal needs of backup.
+
+Here we go.
+
+The base is dwm-6.2 by suckless.
+Patches used:
+1. systray
+2. focusedontop (to avoid the situation when floating windows are over tiled) - manual intervention was required.
+3. pertag (so that each tag can have a separate layout).
+4. [Enternotify] = enternotify - removed to avoid "focus follows mouse"
+5. Removed parts about xinerama.
+6. fancybar - manually applied, to have a list of opened windows on status line.
+7. save floats
+
+Manually adjusted the position of the systray to have a possibility to close any window by clicking in the top right corner of the screen. 
+The result is: in the top right corner there is a multifunctional button "X-W-Aud". 
+Left mouse button will close any focused window. Middle and right buttons will launch a custom program (see config.h)
